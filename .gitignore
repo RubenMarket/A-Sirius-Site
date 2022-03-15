@@ -1,3 +1,4 @@
 .DS_Store
 .vscode/
 FlaskApp/config.py
+FlaskApp/__pycache__

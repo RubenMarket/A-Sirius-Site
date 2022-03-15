@@ -5,7 +5,7 @@ from passlib.hash import pbkdf2_sha256
 from config import client,secret
 
 # v  start virtual enviornment v
-#   source venv/bin/activate
+#  --> source venv/bin/activate
 
 # check python
 #   --> python --version or python3 --version
