@@ -8,7 +8,10 @@ from config import client,secret
 #  --> source venv/bin/activate
 
 # check python
-#   --> python --version or python3 --version
+#   --> python --version || python3 --version
+
+# get pip
+# --> python -m pip install --upgrade pip || python3 -m pip3 install --upgrade pip
 
 # install packages to venv
 #   --> pip3 install -r requirements.txt
