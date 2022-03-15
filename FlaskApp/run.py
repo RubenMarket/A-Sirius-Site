@@ -2,9 +2,21 @@ from flask import Flask, render_template,flash,redirect,jsonify,session,url_for,
 from flask.globals import request
 from bson.objectid import ObjectId
 from passlib.hash import pbkdf2_sha256
-# source venv/bin/activate
-
 from config import client,secret
+
+# v  start virtual enviornment v
+#   source venv/bin/activate
+
+# check python
+#   --> python --version or python3 --version
+
+# install packages to venv
+#   --> pip3 install -r requirements.txt
+
+# run application 
+#   --> python3 run.py
+
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = secret
 app.config['TEMPLATES_AUTO_RELOAD'] = True
